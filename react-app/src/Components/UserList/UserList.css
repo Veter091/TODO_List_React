@@ -1,0 +1,34 @@
+.user-list {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-list__container {
+    width: 450px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid hotpink;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.user-list__ul {
+    list-style: none;
+}
+
+.user-list__li {
+    margin: 15px;
+}
+
+.user-list__buttons {
+    margin-top: 15px;
+}
+
+button {
+    margin-right: 15px;
+}
