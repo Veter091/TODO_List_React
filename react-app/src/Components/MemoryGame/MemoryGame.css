@@ -1,0 +1,41 @@
+.memory-game {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.memory-game__container {
+    width: auto;
+    min-height: 800px;
+    border: 3px solid burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.memory-game__title {
+    font-size: 42px;
+    display: flex;
+}
+
+.memory-game__body {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: repeat(3, 120px);
+    gap: 20px;
+}
+
+.memory-game__item {
+    background-color: gray;
+}
+
+.memory-game__pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
