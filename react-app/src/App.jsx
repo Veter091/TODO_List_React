@@ -4,6 +4,7 @@ import ToDo from './Components/ToDo/ToDo.jsx'
 import Modal from './Components/Modal/Modal.jsx'
 import UserList from './Components/UserList/UserList.jsx'
 import MemoryGame from './Components/MemoryGame/MemoryGame.jsx'
+import TicTacToe from './Components/TicTacToe/TicTacToe.jsx'
 
 function App() {
 
@@ -44,6 +45,8 @@ function App() {
     "https://images.unsplash.com/photo-1496483648148-47c686dc86a8",
     "https://images.unsplash.com/photo-1591181520189-abcb0735c65d",]}
     />
+
+    <TicTacToe/>
     </>
   )
 }

@@ -7,7 +7,7 @@
 
 .memory-game__container {
     width: auto;
-    min-height: 800px;
+    min-height: 600px;
     border: 3px solid burlywood;
     display: flex;
     flex-direction: column;
